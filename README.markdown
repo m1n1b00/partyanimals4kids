@@ -1,0 +1,3 @@
+#  Ruby on Rails web application for PartyAnimal4kids.com
+
+The Party Animals website is a resource for customers learn more about the services offered and to look at pictures of the changing list of characters available for booking a child's birthday party.  Party package information will specify prices, duration and the activities included.  A new costume rental service is also available, with prices listed.  If a customer would like to make a reservation, an email form can be filled out with contact information, desired reservation dates and a selected party package, and representative will contact the customer for a follow-up.
