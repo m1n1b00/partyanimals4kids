@@ -1,6 +1,7 @@
 Partyanimals4kids::Application.routes.draw do
   match '/characters', :to => 'pages#characters'
   match '/packages', :to => 'pages#packages'
+  match '/rentals', :to => 'pages#rentals'
   match '/contact', :to => 'pages#contact'
   match '/about', :to => 'pages#about'
   

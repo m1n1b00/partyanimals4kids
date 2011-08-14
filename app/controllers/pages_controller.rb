@@ -12,10 +12,14 @@ class PagesController < ApplicationController
   end
 
   def packages
-    @title = "Packages"
+    @title = "Party Packages"
   end
 
   def about
     @title = "About"
   end 
+  
+  def rentals
+    @title = "Costume Rentals"
+  end
 end

@@ -51,7 +51,19 @@ describe PagesController do
     
     it "should have the right title" do
       get 'packages'
-      response.should have_selector("title", :content => @base_title + " | Packages")
+      response.should have_selector("title", :content => @base_title + " | Party Packages")
+    end
+  end
+  
+  describe "GET 'rentals'" do
+    it "should be successful" do
+      get 'rentals'
+      response.should be_success
+    end
+    
+    it "should have the right title" do
+      get 'rentals'
+      response.should have_selector("title", :content => @base_title + " | Costume Rentals")
     end
   end
 

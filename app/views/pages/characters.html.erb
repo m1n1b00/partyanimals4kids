@@ -1,2 +1,28 @@
-<h1>Something</h1>
-<p>This is the home page.  Real stuff soon to come</p>
+<div class="span-17">
+	<h1>Choose from 70+ popular look-a-like characters <%= link_to "Book a party", contact_path, :class => "book_party_button round" %></h1>
+	<hr class="space"/>
+	<div class="span-8">
+		<div id="gallery">
+			<% for pic in Dir.glob("public/images/character_reel/*.jpg") %>
+			    <%= image_tag("character_reel/" + File.basename(pic)) %>
+			<% end %>
+		</div>
+		<script>
+		    Galleria.loadTheme('javascripts/galleria/themes/classic/galleria.classic.min.js');
+				$("#gallery").galleria({
+				        width: 300,
+				        height: 300
+				});
+		</script>
+	</div>
+	<div class="span-2"><br /></div>
+	<div class="span-7 last">
+		<h3>Complete list of characters (alphabetically)</h3>
+		<ul>
+			<li>A</li>
+			<li>B</li>
+			<li>C</li>
+		</ul>
+	</div>
+</div>
+<hr class="space"/>

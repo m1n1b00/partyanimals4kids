@@ -1,0 +1,191 @@
+.container { 
+	width: 710px;
+}
+
+body {
+	background: #fff;
+	font-family: Comic Sans MS, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+header {
+	width: 706px;
+	background: url(/images/header_logo.jpg) no-repeat;
+	border-top: 6px solid #549EE9;
+}
+
+header img {
+	padding: 1em;
+}
+
+section {
+	margin-top: 1em;
+	font-size: 120%;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #549EE9;
+	background: #fff;
+}
+
+section h1 {
+	font-size: 160%;
+	color: #FF8800;
+	font-family: Comic Sans MS, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+section h2, h3 {
+	font-size: 120%;
+	color: #0099CC;
+	font-family: Comic Sans MS, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+section h3 {
+	text-align: center;
+}
+
+section a {
+		text-decoration: none;
+}
+
+footer {
+	background: #ffffff;
+}
+
+footer p {
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+	color: #999999;
+}
+
+/* Links */
+
+a {
+	color: #09c;
+}
+
+a:hover {
+	color: #069;
+}
+
+/* Navigation */
+
+nav {
+	width: 710px;
+	height: 52px;
+	margin: 8px 0px;
+	white-space: nowrap;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav ul li a {
+	display: block;
+	float: left;
+	width: 118px;
+	height: 38px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 14px;
+	border-top-width: 6px;
+	border-top-style: solid;
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 17px;
+	white-space: normal;
+	letter-spacing: -1px;
+}
+
+#button1 { 
+	background:#FFCCCC; 
+	border-color: #FF4D4D; 
+	color: #FF4D4D; 
+}
+
+nav ul li a:hover#button1 {
+	color: #000000;
+}
+
+#button2 { 
+	background: #FFFFCC; 
+	border-color: #CFCF00; 
+	color: #CFCF00; 
+}
+
+nav ul li a:hover#button2 {
+	color: #000000;
+}
+
+#button3 { 
+	background: #CCE0FF; 
+	border-color: #549EE9; 
+	color: #549EE9; 
+}
+
+nav ul li a:hover#button3 {
+	color: #000000;
+}
+
+#button4 { 
+	background: #D1FFC2; 
+	border-color: #94A46F; 
+	color: #94A46F; 
+}
+
+nav ul li a:hover#button4 {
+	color: #000000;
+}
+
+#button5 { 
+	background: #E0D1FF; 
+	border-color: #9F8DF6; 
+	color: #9F8DF6; 
+}
+
+nav ul li a:hover#button5 {
+	color: #000000;
+}
+
+#button6 {
+	background: #CCFFFF; 
+	border-color: #00E6E6; 
+	color: #00E6E6;
+}
+
+nav ul li a:hover#button6 {
+	color: #000000; 
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Contact button */
+a.book_party_button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #9F8DF6;
+  background: #E0D1FF;
+  padding: 2px 4px;
+	border: 2px solid;
+}
+
+a.book_party_button:hover {
+	background: #FFFFCC;
+}
+
+
